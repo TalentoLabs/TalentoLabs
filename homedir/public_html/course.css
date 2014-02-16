@@ -1,0 +1,105 @@
+
+.header {
+	margin-top: 7%;
+}
+
+
+.leftcolumn {
+	float: left;
+	width: 80px;
+	margin-left: -15px;
+	margin-right: 15px;
+}
+
+.leftcolumn ul {
+	display: table;
+	display: inline-block;
+	list-style-type: none;
+	padding: 0px;
+}
+
+.leftcolumn li {
+	margin-bottom: 10px;
+}
+
+.leftcolumn img {
+	width: 95%;
+}
+
+.rightcolumn {
+	float: right;
+	width: 250px;
+}
+
+.rightcolumn h3 {
+	font-family:"Avenir",sans-serif;
+    src: url("fonts/avenir.ttf");
+    margin-bottom: 30px;
+}
+
+.centercolumn {
+	float: left; 
+	width: 750px;
+	margin-left: 20px;
+}
+
+.footer-course { 
+	margin-right:auto;
+	margin-left:auto;
+	padding-left:9%;
+	padding-right:11%;
+}
+
+/* Sobre/About Talento Labs page */
+
+.equipe p {
+	margin-bottom: 20px;
+	margin-right: 100px;
+}
+
+.equipe h3 {
+	margin-top: 30px;
+}
+
+.equipe img {
+	width: 80px;
+	border: 1px solid #bebebe;
+	padding: 5px;
+	margin-right: 15px;
+	float: left;
+}
+
+
+/* Node.js page */
+
+.mc-field-group {
+	margin-bottom: 15px;
+}
+
+.mc-field-group-input {
+	float: right;
+}
+
+.required-email {
+	float: right;
+}
+
+.container h4 {
+	font-family: "Avenir",sans-serif;
+	src: url("fonts/avenir.ttf");
+	margin-bottom: 15px;
+	margin-top: 20px;
+}
+
+.container p {
+	margin-left: 18px;
+}
+
+.rightcolumn p {
+	margin-left: 0px;
+	font-size: 12px;
+}
+
+.rightcolumn form {
+	margin-bottom: 30px;
+}

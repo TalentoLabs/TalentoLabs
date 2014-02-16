@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+
+    <title>Signin Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="signin.css" rel="stylesheet">
+
+    <link href="carousel.css" rel="stylesheet">
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-default navbar-static-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"><img src="img/logo.png"></a>
+        </div>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="http://www.talento-labs.com/blog">Blog</a></li>
+            <li><a href="sobre.html">Sobre o Talento Labs</a></li>
+            <!--<li><a href="../navbar/">Contato</a></li>
+            <li><a href="./">Cursos disponíveis</a></li>-->
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Login <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Alunos</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Empresas</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div id='crmWebToEntityForm' align='center'>
+        <META HTTP-EQUIV ='content-type' CONTENT='text/html;charset = UTF-8'>  
+
+          <form action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads1042682000000077007 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatery()' accept-charset='UTF-8'>  
+
+            <input type='text' style='display:none;' name='xnQsjsdp' value='RM5VBEbiutxthYo@kRl79w$$'/>  
+            <input type='hidden' name='zc_gad' id='zc_gad' value=''/>  
+            <input type='text' style='display:none;' name='xmIwtLD' value='rALBzSL4trRyXABGh8UW-XPbR4Td8KaB'/>  
+            <input type='text'  style='display:none;' name='actionType' value='TGVhZHM='/> 
+            <input type='text' style='display:none;' name='returnURL' value='https&#x3a;&#x2f;&#x2f;www.talento-labs.com&#x2f;thanks.html' /> 
+            <br>
+
+            <table border="0" cellspacing="0" cellpadding='6' width="600" class="signin-table">
+              <tr>
+                <td colspan='2' align='left'>
+                  <h1>Cadastro de Empresas</h1>
+                </td>
+              </tr> 
+              <br>
+              <tr>
+                <td nowrap='nowrap' align='left'>
+                  <p>First Name:</p> 
+                </td>
+                <td width="500px" >
+                  <input type='text' style='width:250px;'  maxlength='40' name='First Name' /></div> 
+                </td>
+              </tr>
+              <tr>
+                <td nowrap='nowrap' align='left'>
+                  <p>Last Name<span style='color:red;'>*</span>:</p> 
+                </td>
+                <td width="500px" >
+                  <input type='text' style='width:250px;'  maxlength='80' name='Last Name' /></div> 
+                </td>
+              </tr>
+              <tr>
+                <td nowrap='nowrap' align='left'>
+                  <p>Company:</p> 
+                </td>
+                <td width="500px" >
+                  <input type='text' style='width:250px;'  maxlength='100' name='Company' /></div> 
+                </td>
+              </tr>
+              <tr>
+                <td nowrap='nowrap' align='left'>
+                  <p>Email:</p> 
+                </td>
+                <td width="500px" >
+                  <input type='text' style='width:250px;'  maxlength='100' name='Email' /></div> 
+                </td>
+              </tr>
+              <tr>
+                <td colspan='2' align='center' >
+                  <input type='submit' class="signin-button" value='Submit' /></div>
+                   
+                </td>
+              </tr>
+            </table>
+
+            <script> var mndFileds=new Array('Last Name');var fldLangVal=new Array('Last Name');function reloadImg(){if(document.getElementById('imgid').src.indexOf('&d') !== -1 ){document.getElementById('imgid').src=document.getElementById('imgid').src.substring(0,document.getElementById('imgid').src.indexOf('&d'))+'&d'+new Date().getTime();}else{document.getElementById('imgid').src = document.getElementById('imgid').src+'&d'+new Date().getTime();}}function checkMandatery(){for(i=0;i<mndFileds.length;i++){ var fieldObj=document.forms['WebToLeads1042682000000077007'][mndFileds[i]];if(fieldObj) {if(((fieldObj.value).replace(/^\s+|\s+$/g, '')).length==0){alert(fldLangVal[i] +' cannot be empty'); fieldObj.focus(); return false;}else if(fieldObj.nodeName=='SELECT'){if(fieldObj.options[fieldObj.selectedIndex].value=='-None-'){alert(fldLangVal[i] +' cannot be none'); fieldObj.focus(); return false;}} else if(fieldObj.type =='checkbox'){ if (fieldObj.checked == false){     alert('Please accept  '+fldLangVal[i]); fieldObj.focus();return false;}}}}}
+            </script>  
+          
+          </form>
+        </div>
+
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  </body>
+</html>
